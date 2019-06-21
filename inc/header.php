@@ -8,7 +8,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Rocknetfx - Your preferred assets management and investment company</title>
+    <title>RocknetFx - Your preferred assets management and investment company</title>
 
     <meta name="author" content="blackrock">
 
@@ -37,9 +37,9 @@
     <link rel="stylesheet" type="text/css" href="frontend/revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="frontend/revolution/css/settings.css">
 
-    <!-- Favicon and touch icons  -->
+    <!-- Favicon and touch icons  --
     <link href="frontend/icon/apple-touch-icon-48-precomposed.png" rel="icon" sizes="48x48">
-    <link href="frontend/icon/apple-touch-icon-32-precomposed.png" rel="icon">
+    <link href="frontend/icon/apple-touch-icon-32-precomposed.png" rel="icon"-->
     <link href="frontend/icon/favicon.png" rel="icon">
 
     <!--[if lt IE 9]>
@@ -154,7 +154,7 @@
                                     <!-- /.mainnav -->
                                     <aside class="widget float-right">
                                         <div class="btn-click style2">
-                                            <a href="login" class="flat-button">CLIENT LOGIN</a>
+                                            <a href="account/login" class="flat-button">CLIENT LOGIN</a>
                                         </div>
                                     </aside>
                                 </div>

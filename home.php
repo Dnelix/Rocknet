@@ -33,13 +33,13 @@
                          data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: normal;">with acquired experience over the years.
                     </div>
 
-                    <a href="register" target="_self" class="tp-caption flat-button color-white text-center" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                    <a href="account/register" target="_self" class="tp-caption flat-button color-white text-center" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                        data-x="['center','center','center','center']" data-hoffset="['-90','-90','-90','0']" data-y="['middle','middle','middle','middle']" data-voffset="['119','119','100','100']" data-fontweight="['700','700','700','700']" data-width="['auto']"
                        data-height="['auto']" style="z-index: 3;">Open An Account
                     </a>
                     <!-- END LAYER LINK -->
 
-                    <a href="login" target="_self" class="tp-caption flat-button style3 text-center" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                    <a href="account/login" target="_self" class="tp-caption flat-button style3 text-center" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                        data-x="['center','center','center','center']" data-hoffset="['93','93','93','0']" data-y="['middle','middle','middle','middle']" data-voffset="['119','119','100','170']" data-fontweight="['700','700','700','700']" data-width="['auto']"
                        data-height="['auto']" style="z-index: 3;">Sign In
                     </a>
@@ -211,7 +211,7 @@
                                 <li style="width: 100%">EST ROI: 15%</li>
                             </ul>
                             <div class="btn-pricing">
-                                <a href="register" class="flat-button style2">GET STARTED</a>
+                                <a href="account/register" class="flat-button style2">GET STARTED</a>
                             </div>
                         </article>
                     </div>
@@ -234,7 +234,7 @@
                                 <li style="width: 100%">EST ROI: 20%</li>
                             </ul>
                             <div class="btn-pricing">
-                                <a href="register" class="flat-button style2">GET STARTED</a>
+                                <a href="account/register" class="flat-button style2">GET STARTED</a>
                             </div>
                         </article>
                     </div>
@@ -257,7 +257,7 @@
                                 <li style="width: 100%">EST ROI: 25%</li>
                             </ul>
                             <div class="btn-pricing">
-                                <a href="register" class="flat-button style2">GET STARTED</a>
+                                <a href="account/register" class="flat-button style2">GET STARTED</a>
                             </div>
                         </article>
                     </div>
