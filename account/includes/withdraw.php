@@ -12,6 +12,8 @@ if (isset($_POST['withdraw'])) {
         $msg = "<div style='color:red; font-weight:bold'>* Some fields are missing</div>";
     } else if($avail <= 500){
 				$msg = "<div style='color:red; font-weight:bold'>* SORRY: You do not have sufficient funds to process a withdrawal. </div>";
+		} else if($amt > $avail){
+				$msg = "<div style='color:red; font-weight:bold'>* ERROR: The amount you requested is more than what you have available for withdrawal. </div>";
 		} else {
         $query = "INSERT INTO withdraw (username, email, amount, wallet, wal_adr, time) VALUES ('{$un}', '{$e}', '{$amt}', '{$wallet}', '{$wal_adr}', now())";
         $update_result = mysqli_query($link, $query);

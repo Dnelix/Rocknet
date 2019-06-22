@@ -41,7 +41,7 @@
                   <form onSubmit="return false">
                       <div class="form-group">
                         <label class="control-label">SEND TO: </label>
-                        <?php if (isset($_GET['replyTo'])){ $sendTo = ucwords(getUsername($_GET['replyTo'])); }else{ $sendTo = "ALL USERS";} ?>
+                        <?php if (isset($_GET['replyTo'])){ $sendTo = getUsername($_GET['replyTo']); }else{ $sendTo = "ALL USERS";} ?>
                         <input type="text" id="to" name="to" value="<?= $sendTo; ?>" class="form-control" disabled >
                       </div>
                       <div class="form-group">

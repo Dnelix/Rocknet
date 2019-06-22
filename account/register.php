@@ -16,6 +16,7 @@ if (isset($_POST['register'])) {
     $phone = filter_input(INPUT_POST, 'p');
     $country = filter_input(INPUT_POST, 'c');
     $zip = filter_input(INPUT_POST, 'zip');
+    $refr = filter_input(INPUT_POST, 'ref');
     $invest_plan = filter_input(INPUT_POST, 'plan');
     $password = filter_input(INPUT_POST, 'pw');
     $password2 = filter_input(INPUT_POST, 'pw2');
@@ -37,7 +38,7 @@ if (isset($_POST['register'])) {
             $reg_prompt = '<div class="note note-danger"> * Some required fields are missing</div>';
         } else {
             $reg_password = md5($password);
-            $reg_query = "INSERT INTO users (username, fullname, email, phone_number, plan, password, reg_date, reg_time)VALUES ('{$username}', '{$fullname}', '{$email}', '{$phone}', '{$invest_plan}', '{$reg_password}', now(), now())";
+            $reg_query = "INSERT INTO users (username, fullname, email, phone_number, plan, referee, password, reg_date, reg_time)VALUES ('{$username}', '{$fullname}', '{$email}', '{$phone}', '{$invest_plan}', '{$refr}', '{$reg_password}', now(), now())";
             $reg_result = mysqli_query($link, $reg_query);
 																								
 				//-----------send a mail-----//
@@ -126,6 +127,10 @@ if (isset($_POST['register'])) {
 								<option value="SILVER" style="color:#000">SILVER</option>
 								<option value="GOLD" style="color:#000">GOLD</option>
 							</select>
+						</div>
+						<div class="register_input">
+							<input type="text" class="register-form-border" id='ref' value="<?= $ref; ?>" name='ref' placeholder="Your Referee">
+							<span class="register-right-icon"><i class="icon icon_profile"></i></span>
 						</div>
 						
 						<div class="register_input">

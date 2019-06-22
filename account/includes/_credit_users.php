@@ -80,7 +80,7 @@ while ($user = mysqli_fetch_array($select_user)) {
 			?>
 				<form method="post">
 					<div>
-						<h4>CREDIT USER: [<span style="color:red"><?= strtoupper($u['username']);?></span>]</h4>
+						<h4>CREDIT USER: [<span style="color:red"><?= strtoupper($u);?></span>]</h4>
 					</div>
 					<?php if (isset($prompt)) { ?>
 						<div class="row">

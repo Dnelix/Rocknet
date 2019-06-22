@@ -56,7 +56,7 @@
 									?>
 									<tr class="odd gradeX">
 										<td><?= $row["id"]; ?></td>
-										<td><?= getUsername($row["user_id"])['username']; ?></td>
+										<td><?= getUsername($row["user_id"]); ?></td>
 										<td><?= ($row["amount"]<=10) ? '<span class="tag square-tag tag-danger">'.$row["amount"].' $</span>' : '<span class="tag square-tag tag-success">'.$row["amount"].' $</span>'; ?></td>
 										<td><?= ($row["bonus"]<=1) ? '<span class="tag square-tag tag-danger">'.$row["bonus"].' $</span>' : '<span class="tag square-tag tag-success">'.$row["bonus"].' $</span>'; ?></td>
 										<td><span class="tag square-tag tag-info"> $<?= $row["commission"]; ?> </span></td>

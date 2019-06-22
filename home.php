@@ -1,3 +1,9 @@
+<?php
+if(isset($_GET['ref']) && $_GET['ref']!=''){
+	$ref = $_GET['ref'];
+	echo '<script type="text/javascript">window.location.href="account/register?ref='.$ref.'";</script>';
+}
+?>
 <?php include('inc/header.php'); ?>
 
         <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">

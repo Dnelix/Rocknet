@@ -103,7 +103,7 @@
 				<div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="content">
 						<div class="dashboard-header">
-							<h4 class="page-content-title float-xs-left">Newest Users <span class="btn btn-primary">View All</span></h4>
+							<h4 class="page-content-title float-xs-left">Newest Users <span class="btn btn-primary" onclick="goTo('?link=_users')">View All</span></h4>
 							<div class="dashboard-action">
 								<ul class="right-action float-xs-right">
 									<li data-widget="collapse"><a href="javascript:void(0)" aria-hidden="true"><span class="icon_minus-06" aria-hidden="true"></span></a></li>
@@ -151,7 +151,7 @@
 			
 			<div class="row">
 				<div class="content content-datatable datatable-width col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h4 class="page-content-title">Latest Transactions <span class="btn btn-primary">View All</span></h4>
+					<h4 class="page-content-title">Latest Transactions <span class="btn btn-primary" onclick="goTo('?link=_transactions')">View All</span></h4>
 					<div class="row">
 						<div class="col-md-12">
 							<table data-plugin="datatable" data-scroll-y="150px", data-scroll-collapse="true" data-responsive="true" class="table table-striped table-hover dt-responsive">
@@ -173,7 +173,7 @@
 									?>
 									<tr class="odd gradeX">
 										<td><?= $row["id"]; ?></td>
-										<td><?= getUsername($row["user_id"])['username']; ?></td>
+										<td><?= getUsername($row["user_id"]); ?></td>
 										<td><?= ($row["amount"]<=10) ? '<span class="tag square-tag tag-danger">'.$row["amount"].' $</span>' : '<span class="tag square-tag tag-success">'.$row["amount"].' $</span>'; ?></td>
 										<td><?= ($row["bonus"]<=1) ? '<span class="tag square-tag tag-danger">'.$row["bonus"].' $</span>' : '<span class="tag square-tag tag-success">'.$row["bonus"].' $</span>'; ?></td>
 										<td><label class="label label-primary"> <?= $row["commission"]; ?>$ </label></td>
