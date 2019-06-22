@@ -16,6 +16,8 @@ if (!isset($_SESSION['username'])){
 
 	$total_amt_avail = $comm+$profit+$user_amount;
 	$avail_for_withd = $comm+$profit+$user_amount;
+
+	$ref_bonus = 100; // Crediting Referral Bonus in dollars
 	
 	($user['photo']!='') ? $avatar_src = "uploads/".$user['photo'] : $avatar_src = "uploads/avatar2.png"; //Get User Photo
 

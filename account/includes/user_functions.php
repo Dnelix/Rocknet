@@ -127,7 +127,7 @@ function totalProfit($usr) {
 //---------------------------------------------------
 function numRefs($usr) {
 	global $link;
-	$res = mysqli_query($link, "SELECT COUNT(id) FROM users WHERE referral='{$usr}'");
+	$res = mysqli_query($link, "SELECT COUNT(id) FROM users WHERE referee='{$usr}'");
 	$row = mysqli_fetch_array($res);
 	return $row[0];
 }

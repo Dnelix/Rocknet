@@ -35,6 +35,7 @@
 							<li><a href="?link=inbox&adm=1">Message Support</a></li>
 						</ul>
 					</li>
+					<li class="sub-item"><a href="?link=referrals">My Referrals</a></li>
 					
 				</ul>
 			</li>
