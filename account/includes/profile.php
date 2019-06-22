@@ -116,7 +116,7 @@
 										</div>
 										<div class="user-name-profile col-xl-6 col-md-12 col-xs-12">
 											<div class="left-name-profile float-xs-left">My Referral Link :</div>
-											<div class="detail-profile float-xs-right"><a href="<?= $c_web.'?ref='.$user['email']; ?>"><?= $c_web.'?ref='.$user['email']; ?></a></div>
+											<div class="detail-profile float-xs-right"><a href="<?= $c_web.'?ref='.$user['username']; ?>"><?= $c_web.'?ref='.$user['username']; ?></a></div>
 										</div>
 										<div class="user-name-profile col-xl-6 col-md-12 col-xs-12">
 											<div class="left-name-profile float-xs-left">Account Plan :</div>
