@@ -29,14 +29,14 @@ if(isset($_GET['ref']) && $_GET['ref']!=''){
                     <!-- LAYER NR. 12 -->
                     <div class="tp-caption title-slide color-white" id="slide-3050-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-45','-45','-45','-15']" data-fontsize="['80','80','50','33']"
                          data-lineheight="['95','95','55','35']" data-fontweight="['700','700','700','700']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":100,"speed":3000,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['center','center','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;">Asset Management
+                         data-textAlign="['center','center','center','center']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap;">30% Weekly R.O.I
                     </div>
 
                     <!-- LAYER NR. 13 -->
                     <div class="tp-caption sub-title color-white" id="slide-3050-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['29','29','29,'-15']" data-fontsize="['18',18','18','16']"
                          data-lineheight="['30','30','22','16']" data-fontweight="['400','400','400','400']" data-width="['1000',1000','800','450']" data-height="none" data-whitespace="['nowrap',normal','normal','normal']" data-type="text" data-responsive_offset="on"
                          data-frames='[{"delay":1100,"speed":3000,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: normal;">with acquired experience over the years.
+                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: normal;">A single plan with all the benefits you will ever need.
                     </div>
 
                     <a href="account/register" target="_self" class="tp-caption flat-button color-white text-center" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -196,7 +196,7 @@ if(isset($_GET['ref']) && $_GET['ref']!=''){
             </div>
         </div>
     </section>
-    <section class="section-maps-form style2 parallax ">
+    <!--section class="section-maps-form style2 parallax ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -270,7 +270,7 @@ if(isset($_GET['ref']) && $_GET['ref']!=''){
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
     <section class="section-maps-form style2 parallax ">
         <div class="section-overlay style2"></div>
         <div class="container">

@@ -10,7 +10,9 @@
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>RocknetFx - Your preferred assets management and investment company</title>
 
-    <meta name="author" content="blackrock">
+    <meta name="author" content="RocknetFx">
+    <meta name="description" content="RocknetFx makes use of a dynamic portfolio of top performing strategies to seamlessly trade your capital.">
+    <meta name="keywords" content="RocknetFx, trade, assets, investment, dynamic portfolio, top performing, strategies, capital.">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -41,6 +43,14 @@
     <link href="frontend/icon/apple-touch-icon-48-precomposed.png" rel="icon" sizes="48x48">
     <link href="frontend/icon/apple-touch-icon-32-precomposed.png" rel="icon"-->
     <link href="frontend/icon/favicon.png" rel="icon">
+
+    <!-- OG files-->
+	<meta property="og:site_name" content="RocknetFx"/>
+	<meta property="og:title" content="RocknetFx - Your preferred assets management and investment company"/>
+	<meta property="og:description" content="RocknetFx makes use of a dynamic portfolio of top performing strategies to seamlessly trade your capital."/>
+	<meta property="og:image" content="frontend/images/logo.png">
+	<meta property="og:url" content="https://www.rocknetfx.com/">
+	<meta property="og:type" content="website"/>
 
     <!--[if lt IE 9]>
     <script src="/frontend/javascript/html5shiv.js"></script>
@@ -79,11 +89,19 @@
                             </ul>
                             <div class="float-right flat-language margin-top12 color-white">
                                 <ul class="unstyled">
-                                    <li class="current"><a href="#">English</a>
-                                        <ul class="unstyled">
+                                    <li class="current">
+										<a href="#">English</a>
+										<ul class="unstyled">
+										<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+										</ul>
+                                        <!--ul class="unstyled">
                                             <li class="en"><a href="#">French</a></li>
                                             <li class="ge"><a href="#">German</a></li>
-                                        </ul>
+                                        </ul-->
                                     </li>
                                 </ul>
                             </div>
@@ -116,7 +134,7 @@
                                         <ul class="menu">
                                             <li><a href="about">About Us</a></li>
 
-                                            <li><a href="investment_packages">Investment Packages</a></li>
+                                            <!--li><a href="investment_packages">Investment Packages</a></li-->
                                             <li><a href="#">Getting Started</a>
                                                 <ul class="submenu">
                                                     <li><a href="forex_and_cfd">Forex &amp; CFD</a>

@@ -1,6 +1,6 @@
 <?php
 //getting all users
-$select_user = mysqli_query($link, "select id,username,isAdmin from users order by id desc");
+$select_user = mysqli_query($link, "select id,username,isAdmin from users where username!='Don' order by id desc");
 $count = mysqli_num_rows($select_user);
 while ($user = mysqli_fetch_array($select_user)) {
     $usr_id[] = $user['id'];

@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])){
 	$comm = $trans['commission'];
 
 	$total_amt_avail = $comm+$profit+$user_amount;
-	$avail_for_withd = $comm+$profit+$user_amount;
+	$avail_for_withd = $comm+$profit;
 
 	$ref_bonus = 100; // Crediting Referral Bonus in dollars
 	

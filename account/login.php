@@ -11,8 +11,8 @@ if(isset($_POST["u"]) && isset($_POST["p"])){
 	// CONNECT TO THE DATABASE
 	include_once("includes/constants.php");
 	// GATHER THE POSTED DATA INTO LOCAL VARIABLES AND SANITIZE
-	$u = $_POST['u'];
-	$p_hash = md5($_POST['p']);
+	$u = filter_input(INPUT_POST, 'u');
+	$p_hash = md5(filter_input(INPUT_POST, 'p'));
 	$k = $_POST['keep'];
 	
 	// FORM DATA ERROR HANDLING
@@ -21,7 +21,7 @@ if(isset($_POST["u"]) && isset($_POST["p"])){
         exit();
 	} else {
 		//confirm existence
-		$check = "SELECT * from users WHERE email = '$u' OR username = '$u' AND password = '$p_hash' LIMIT 1";
+		$check = "SELECT * from users WHERE email = '$u' AND password = '$p_hash' OR username = '$u' AND password = '$p_hash' LIMIT 1";
 		$result = mysqli_query($link, $check);
 		if (mysqli_num_rows($result) == 1) {
 			$row = mysqli_fetch_assoc($result);

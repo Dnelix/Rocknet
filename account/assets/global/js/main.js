@@ -39,11 +39,12 @@ function hideElement(x){
 	}
 }
 
-function toggleElement(x,a,b,c,d,e){
+//function toggleElement(x,a,b,c,d,e){
+function toggleElement(x){
 	var x = _(x);
 	
 	//find and hide others
-	hideElement(a); hideElement(b); hideElement(c); hideElement(d); hideElement(e); 
+	//hideElement(a); hideElement(b); hideElement(c); hideElement(d); hideElement(e); 
 	//done*/
 	
 	if(x.style.display == 'block'){
@@ -242,7 +243,7 @@ function toggleAdmin(id,isAdmin){
 }
 //----------------------------------------------------------------------------
 function changePlan(id,plan){
-	var newPlan = prompt ("CURRENT PACKAGE: "+plan+" \n\n Type in the new plan this user would be migrated to ","");
+	var newPlan = prompt ("USERS CURRENT PLAN: "+plan+" \n\n If you wish to change this user's plan, type the new plan for the user and click OK ","");
 	if(newPlan!="" && newPlan!=null ){
 		//alert ('Please Wait... \n Click OK to close this dialog');
 		var ajax = ajaxObj("POST", "includes/parse/change_plan.php");

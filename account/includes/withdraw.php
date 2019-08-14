@@ -6,6 +6,7 @@ if (isset($_POST['withdraw'])) {
     $wallet = filter_input(INPUT_POST, 'wallet');
     $wal_adr = filter_input(INPUT_POST, 'wal_adr');
     $avail = filter_input(INPUT_POST, 'avail_witd');
+	$avail_comm = $avail*0.2;
 
 	
     if ($un == "" || $e == "" || $wallet == "" || $wal_adr == "") {
@@ -100,15 +101,15 @@ if (isset($_POST['withdraw'])) {
 				<div class="card col-md-4">
 					<div class="col-md-12">
 						<div class="card-block"><p>
-							<h6>TOTAL AMOUNT IN ACCOUNT</h6>
+							<h4>TOTAL AMOUNT IN ACCOUNT</h4>
 							<span style="font:9pt italic">(Balance + Profit + Commissions)</span>
-							<h4>$<?= $total_amt_avail; ?></h4>
+							<h2>$<?= $total_amt_avail; ?></h2>
 						</p></div>
 						<hr/>
 						<div class="card-block"><p>
-							<h6>AVAILABLE FOR WITHDRAWAL</h6>
-							<span style="font:9pt italic">(At the end of Maturity Period)</span>
-							<h4>$<?= $avail_for_withd; ?></h4>
+							<h4>AVAILABLE FOR WITHDRAWAL</h4>
+							<span style="font:9pt italic">(Matured Profit + Commissions)</span>
+							<h2>$<?= $avail_for_withd; ?></h2>
 						</p></div>
 
 					</div>

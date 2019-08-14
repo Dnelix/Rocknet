@@ -25,12 +25,12 @@
 								<hr/>
 								<p>Payment Option: <b>BITCOIN</b></p>
 								<p>Reference ID: #ECT247-<?= rand(2345876, 9897969); ?>BTC</p>
-								<p>Wallet Address: <b style="color:red">1GEoXHbccQxuPPeLZcPCe8ft5txnNe87kE</b></p>
+								<p>Wallet Address: <b style="color:red">1C82wtuHXMkiFKgVYUjVG4k61H27BrBteQ</b></p>
 							 </div>
 						</p>
 					</a>
 				</div>
-				<div class="col-md-4">
+				<!--div class="col-md-4">
 					<a href="javascript:;" onClick="toggleElement('p2','p1','p3','p4','p5','p6')" class="list-group-item">
 						<h4 class="list-group-item-heading">Pay With Luno Bitcoin</h4>
 						<p class="list-group-item-text">

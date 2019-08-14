@@ -27,8 +27,8 @@
                             </a>
                         </div>
                         <ul class="flat-information">
-                            <li><i class="fa fa-map-marker"></i><a href="#">10 East 53rd St. 28th Floor, New York, NY 10022</a></li>
-                            <li><i class="fa fa-phone"></i><a href="#">+1 917-268-5279</a></li>
+                            <li><i class="fa fa-map-marker"></i><a href="#">Sheikh Zayed Road, Office no. 501, 5th Floor, Aspin Commercial Tower - Dubai - United Arab Emirates</a></li>
+                            <li><i class="fa fa-phone"></i><a href="#">+1 917-9799-237</a></li>
                             <li><i class="fa fa-envelope"></i><a href="#">info@rocknetfx.com</a></li>
                         </ul>
                     </div>
@@ -167,17 +167,10 @@
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5b870ae8f31d0f771d8444d3/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-    })();
+
 </script>
 <!--End of Tawk.to Script-->
+
 </body>
 
 </html>

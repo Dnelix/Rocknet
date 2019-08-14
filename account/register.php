@@ -123,9 +123,10 @@ if (isset($_POST['register'])) {
 						<div class="register_input">
 							<select size=1 class="register-form-border" id="s" name="plan" style="width:100%">
 								<option value="">Choose a plan</option>
-								<option value="BRONZE" style="color:#000">BRONZE</option>
+								<option value="ULTIMATE" style="color:#000">ULTIMATE (30% R.O.I)</option>
+								<!--option value="BRONZE" style="color:#000">BRONZE</option>
 								<option value="SILVER" style="color:#000">SILVER</option>
-								<option value="GOLD" style="color:#000">GOLD</option>
+								<option value="GOLD" style="color:#000">GOLD</option-->
 							</select>
 						</div>
 						<div class="register_input">

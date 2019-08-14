@@ -24,11 +24,11 @@
             </div>
             <div class="user-name-profile col-xl-12 col-md-12 col-xs-12">
               <div class="left-name-profile float-xs-left">Total Referrals:</div>
-              <div class="detail-profile float-xs-right"><h2><?= numRefs($user['username']); ?></h2></div>
+              <div class="detail-profile float-xs-right"><h2><?= numRefs($user['username'])+numRefs($user['email']); ?></h2></div>
             </div>
             <div class="user-name-profile col-xl-12 col-md-12 col-xs-12">
               <div class="left-name-profile float-xs-left">Commissions Earned:</div>
-              <div class="detail-profile float-xs-right"><h3>$<?= ($ref_bonus)*(numRefs($user['username'])); ?></h3></div>
+              <div class="detail-profile float-xs-right"><h3>$<?= ($ref_bonus)*(numRefs($user['username'])+numRefs($user['email'])); ?></h3></div>
             </div>
 
           </div>
@@ -49,7 +49,7 @@
                   </thead>
                   <tbody>
                     <?php
-                      $sql = "SELECT * FROM users WHERE referee='{$user['username']}' ORDER BY id DESC";
+                      $sql = "SELECT * FROM users WHERE referee='{$user['username']}' OR referee='{$user['email']}' ORDER BY id DESC";
                       $query = mysqli_query($link, $sql);
                       if(mysqli_num_rows($query)<1){
                     ?>
@@ -64,8 +64,8 @@
                       <td><span class="tag square-tag tag-danger">$ <?= $ref_bonus; ?></span></td>
                     </tr>
                     <?php $x++; } } ?>
-								</tbody>
-							</table>
+					</tbody>
+				</table>
             </div>
             
           </div>

@@ -1,5 +1,5 @@
 <?php
-	include('includes/constants.php');
+	include('../includes/constants.php');
 
 	$add_bonus = "UPDATE transaction SET bonus = bonus+dailybonus WHERE dailybonus!=0";
 	$bonus_query = mysqli_query($link, $add_bonus);
